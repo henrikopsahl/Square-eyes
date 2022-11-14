@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../Desktop/Unsplash"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "first-year-cross-course-assignment-brief-two-master"
+	}
+}

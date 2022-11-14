@@ -1,0 +1,29 @@
+h1 {
+  color: #fff;
+  font-family: "Source Serif Pro", serif;
+}
+
+p {
+  font-size: 1rem;
+  margin-left: 60%;
+  color: #fff;
+  margin-top: -50px;
+  font-family: "Poppins", sans-serif;
+}
+.hero-section {
+  display: flex;
+  justify-content: center;
+  height: 50vh;
+  background-image: url(/assets/movieroll.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 2.3rem;
+  color: #000;
+  border-radius: 20px;
+  font-size: 1.5rem;
+  font-family: "Source Serif Pro", serif;
+  max-width: 100%;
+  
+ 
+}
