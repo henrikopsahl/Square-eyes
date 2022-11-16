@@ -1,6 +1,7 @@
 h1 {
   color: #fff;
   font-family: "Source Serif Pro", serif;
+  max-width: 50%;
 }
 
 p {
