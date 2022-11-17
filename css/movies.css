@@ -4,7 +4,7 @@ html {
   box-sizing: border-box;
 }
 html:focus-within {
-  scroll-behavior: smooth;
+  scroll-behavior:smooth;
 }
 *,
 *::before,
@@ -19,13 +19,16 @@ body {
 header {
   max-width: 100%;
   background-color: rgb(214, 227, 248);
-  max-height: 150px;
+  max-height: 1500px;
   border-radius: 20px;
   margin-top: -0.5rem;
 }
 .container {
   display: flex;
+  gap: 0;
+  margin-top: 0;
   max-width: 100%;
+  
 }
 .logo {
   max-height: 100px;
@@ -41,16 +44,27 @@ nav ul {
   display: flex;
   list-style-type: none;
 }
-i{
-  font-size: 24px;
 
+.icons-container{
+  display: flex;
+  justify-content: flex-end ;
+  margin-right: 20px;
+  gap: 20px;
+  font-size: 24px;}
+
+
+.icon-search{
+margin-top: -85px;
+}
+.icon-home{
+  margin-top: -85px;
 }
 .topm-container, .action-container, .comedy-container {
   display: flex;
   position: relative;
 }
 .movie {
-  flex: 20%;
+  flex: 30%;
   padding: 5px;
 }
 img{
@@ -63,8 +77,9 @@ img{
     top: 90%;
     background-color: #bc4b51;
     border-radius: 20px;
-    width: 100px;
-    height: 20px;
+    width: 50px;
+    height: 10px;
+    font-size: 0.5rem;
     color: #000;
     font-weight: bold;
     padding: 0;
@@ -86,37 +101,26 @@ right: 81%;
 .btn5{
     right: 1%
 }
-.watch-now:hover, .watch-now-action:hover, .watch-now-comedy:hover{
+.watch-now:hover{
   color: #fff;
 }
 
 
-.watch-now-action, .watch-now-comedy{
-  position: absolute;
-  top: 85%;
-  background-color: #bc4b51;
-  border-radius: 20px;
-  width: 80px;
-  height: 20px;
-  color: #000;
-  font-weight: bold;
-  padding: 0;
-  border: none;
-}
+
 .btn6, .btn11{
-  right: 86%;
+  right: 82%;
 }
 .btn7, .btn12{
-  right: 65%;
+  right: 62%;
 }
 .btn8, .btn13{
-  right: 45%;
+  right: 42%;
 }
 .btn9, .btn14{
-  right: 26%;
+  right: 22%;
 }
 .btn10,.btn15{
-  right: 4%;
+  right: 2%;
 }
 
 
@@ -142,4 +146,40 @@ footer a {
 footer a:hover,
 header a:hover {
   color: #bc4b51;
+}
+
+@media screen and (min-width: 769px) {
+  .watch-now {
+    width: 100px;
+    height: 20px;
+    font-size: 1rem;
+  }
+  .btn2 {
+    right: 63%;
+  }
+  .btn3{
+    right: 44%;
+  }
+ .btn4{
+  right: 23%;
+ }
+ .btn5{
+  right: 3%;
+ }
+.btn6, .btn11{
+  right:85% ;
+}
+.btn7, .btn12{
+  right: 65%;
+}
+.btn8, .btn13{
+  right: 44%;
+}
+.btn9, .btn14{
+  right: 26%;
+}
+.btn10, .btn15{
+  right: 4%;
+}
+
 }
