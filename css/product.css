@@ -4,7 +4,7 @@ html {
   box-sizing: border-box;
 }
 html:focus-within {
-  scroll-behavior: smooth;
+  scroll-behavior:smooth;
 }
 *,
 *::before,
@@ -19,19 +19,22 @@ body {
 header {
   max-width: 100%;
   background-color: rgb(214, 227, 248);
-  max-height: 100px;
+  max-height: 1500px;
   border-radius: 20px;
   margin-top: -0.5rem;
 }
 .container {
   display: flex;
+  gap: 0;
+  margin-top: 0;
   max-width: 100%;
+  
 }
 .logo {
   max-height: 100px;
 }
 header a {
-  padding-left: 50px;
+  padding-left: 10px;
   color: #000;
   text-decoration: none;
   font-size: 1.5rem;
@@ -42,14 +45,19 @@ nav ul {
   list-style-type: none;
 }
 
+.icons-container{
+  display: flex;
+  margin-left: 50%;
+  margin-right: 0;
+  gap: 20px;
+  font-size: 24px;}
+
+  img{
+    max-width: 100%;
+  }
 p{
-  position: relative;
-  top: -400px;
-  right: 0;
-  left: 40%;
-  bottom: 0;
   font-size: 1.5rem;
-  max-width: 50%;
+  max-width: 100%;
 }
 
 footer {
@@ -72,4 +80,32 @@ footer a {
 footer a:hover,
 header a:hover {
   color: #bc4b51;
+}
+@media screen and (min-width:640px) {
+  .icons-container{
+    display: flex;
+    justify-content: flex-end ;
+    margin-right: 20px;
+    gap: 20px;
+    font-size: 24px;}
+  
+  
+  .icon-search{
+  margin-top: -85px;
+  }
+  .icon-home{
+    margin-top: -85px;
+  }
+ 
+}
+@media screen and (min-width:1024px) {
+  p{
+    position: relative;
+    top: -400px;
+    right: 0;
+    left: 40%;
+    bottom: 0;
+    font-size: 2rem;
+    max-width: 50%;
+  }
 }

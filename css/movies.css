@@ -47,18 +47,18 @@ nav ul {
 
 .icons-container{
   display: flex;
-  justify-content: flex-end ;
-  margin-right: 20px;
+  margin-left: 50%;
+  margin-right: 0;
   gap: 20px;
   font-size: 24px;}
 
+h1, h2{
+  color: white;
+}
+h1{
+  text-align: center;
+}
 
-.icon-search{
-margin-top: -85px;
-}
-.icon-home{
-  margin-top: -85px;
-}
 .topm-container, .action-container, .comedy-container {
   display: flex;
   position: relative;
@@ -182,4 +182,22 @@ header a:hover {
   right: 4%;
 }
 
+}
+
+@media screen and (min-width:640px) {
+  .icons-container{
+    display: flex;
+    justify-content: flex-end ;
+    margin-right: 20px;
+    gap: 20px;
+    font-size: 24px;}
+  
+  
+  .icon-search{
+  margin-top: -85px;
+  }
+  .icon-home{
+    margin-top: -85px;
+  }
+  
 }

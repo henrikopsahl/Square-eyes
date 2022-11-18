@@ -21,15 +21,16 @@ input {
   min-height: 45px;
   min-width: 90%;
 }
-input[type="submit"] {
+button {
   background-color: #bc4b51;
   color: #000;
   font-size: 1.5rem;
-  max-width: 250px;
+  min-width: 250px;
+  max-width: 300px;
   margin-top: 10px;
   border-radius: 20px;
 }
-input[type="submit"]:hover {
+button:hover {
   color: #ffffff;
 }
 label {
