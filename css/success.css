@@ -1,7 +1,7 @@
-main{
-    height: 60%;
-    width: 100%;
-    font-family: "Source Serif Pro", serif;
+main {
+  height: 60%;
+  width: 100%;
+  font-family: "Source Serif Pro", serif;
 }
 
 .check-circle {
@@ -14,16 +14,16 @@ h1 {
   text-align: center;
   margin-top: 5%;
 }
-.start-watching{
-    display: flex;
-    justify-content: center;
-    margin-top: 5%;
-    
-    color: #000;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 1.5rem;
+.start-watching {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.5rem;
 }
-.start-watching:hover{
-    color: #fff;
+.start-watching:hover {
+  color: #fff;
 }

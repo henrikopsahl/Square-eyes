@@ -5,12 +5,12 @@ html {
 }
 html:focus-within {
   scroll-behavior: smooth;
- }
- *,
- *::before,
- *::after {
+}
+*,
+*::before,
+*::after {
   box-sizing: inherit;
- }
+}
 body {
   background: #175676;
   max-width: 100%;

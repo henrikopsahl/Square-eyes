@@ -4,7 +4,7 @@ html {
   box-sizing: border-box;
 }
 html:focus-within {
-  scroll-behavior:smooth;
+  scroll-behavior: smooth;
 }
 *,
 *::before,
@@ -28,7 +28,6 @@ header {
   gap: 0;
   margin-top: 0;
   max-width: 100%;
-  
 }
 .logo {
   max-height: 100px;
@@ -45,20 +44,22 @@ nav ul {
   list-style-type: none;
 }
 
-.icons-container{
+.icons-container {
   display: flex;
   margin-left: 50%;
   margin-right: 0;
   gap: 20px;
-  font-size: 24px;}
+  font-size: 24px;
+}
 
-  img{
-    max-width: 100%;
-  }
-  h1, h2{
-    font-family: "Source Serif Pro", serif;
-  }
-p{
+img {
+  max-width: 100%;
+}
+h1,
+h2 {
+  font-family: "Source Serif Pro", serif;
+}
+p {
   font-size: 1.5rem;
   max-width: 100%;
   font-family: "Poppins", sans-serif;
@@ -67,7 +68,7 @@ p{
 footer {
   background-color: rgb(214, 227, 248);
   min-height: 45px;
- max-height: 100px;
+  max-height: 100px;
   border-radius: 20px;
   margin-top: 0.5rem;
   display: flex;
@@ -85,25 +86,24 @@ footer a:hover,
 header a:hover {
   color: #bc4b51;
 }
-@media screen and (min-width:640px) {
-  .icons-container{
+@media screen and (min-width: 640px) {
+  .icons-container {
     display: flex;
-    justify-content: flex-end ;
+    justify-content: flex-end;
     margin-right: 20px;
     gap: 20px;
-    font-size: 24px;}
-  
-  
-  .icon-search{
-  margin-top: -85px;
+    font-size: 24px;
   }
-  .icon-home{
+
+  .icon-search {
     margin-top: -85px;
   }
- 
+  .icon-home {
+    margin-top: -85px;
+  }
 }
-@media screen and (min-width:1024px) {
-  p{
+@media screen and (min-width: 1024px) {
+  p {
     position: relative;
     top: -400px;
     right: 0;
