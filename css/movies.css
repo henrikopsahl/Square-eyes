@@ -35,10 +35,12 @@ header {
 }
 header a {
   padding-left: 10px;
-  color: #000;
-  text-decoration: none;
   font-size: 1.5rem;
-  font-weight: bold;
+}
+a{
+  text-decoration: none;
+  font-weight: bolder;
+  color: #000;
 }
 nav ul {
   display: flex;
@@ -89,6 +91,8 @@ img{
 }
 .btn1{
 right: 81%;
+display: flex;
+justify-content: center;
 }
 .btn2{
     right: 61%;
