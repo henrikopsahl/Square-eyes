@@ -1,15 +1,18 @@
 h1 {
   color: #fff;
   font-family: "Source Serif Pro", serif;
-  max-width: 50%;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 p {
-  font-size: 0.7rem;
-  margin-left: 60%;
+  display: flex;
+  justify-content: center;
   color: #fff;
-  margin-top: -50px;
+  margin: 50px;
   font-family: "Poppins", sans-serif;
+  font-size: 0.7rem;
 }
 .hero-section {
   display: flex;
@@ -28,11 +31,16 @@ p {
   min-height: 100%;
   margin-top: 60px;
 }
-@media screen and (min-width: 768px) {
-  p {
-    font-size: 1rem;
-  }
+@media screen and (min-width: 640px) {
   .hero-section {
     margin-top: 0;
+  }
+  p{
+  margin-left: 60%;
+  margin-top: -50px;
+  font-size: 1rem;
+  }
+  h1{
+    justify-content: start;
   }
 }
