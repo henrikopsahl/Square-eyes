@@ -58,11 +58,17 @@ img {
 h1,
 h2 {
   font-family: "Source Serif Pro", serif;
+  color: #fff;
+}
+
+h2{
+  font-size: 1rem;
 }
 p {
-  font-size: 1.5rem;
+  font-size: 1rem;
   max-width: 100%;
   font-family: "Poppins", sans-serif;
+  color: #fff;
 }
 
 footer {
@@ -77,7 +83,7 @@ footer {
   font-size: 1.3rem;
 }
 footer a {
-  color: black;
+  color: #000;
   text-decoration: none;
   margin-right: 10px;
   margin-top: 40px;

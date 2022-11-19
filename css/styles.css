@@ -13,10 +13,10 @@
 }
 h1 {
   padding-left: 1rem;
-  font-family: "Source Serif Pro", serif;
-  justify-content: center;
-  font-size: 2rem;
-  font-weight: bold;
+    font-family: "Source Serif Pro", serif;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: bold;
 }
 .button {
   display: grid;
@@ -40,9 +40,19 @@ main {
   min-height: 80%;
 }
 p {
+  display: flex;
+  justify-content: center;
   font-size: 1.2rem;
   font-family: "Poppins", sans-serif;
+  color: #fff;
+  padding: 20px;
 }
+
+
+@media screen and (min-width:640px) {
+  p{
+    padding: 0;
+  }
 .paragraph1 {
   color: white;
   max-width: 500px;
@@ -52,4 +62,5 @@ p {
   margin-left: 60%;
   color: white;
   margin-top: -100px;
+}
 }

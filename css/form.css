@@ -24,14 +24,14 @@ input {
 main a {
   background-color: #bc4b51;
   color: #000;
-  font-size: 1.5rem;
-  min-width: 250px;
-  max-width: 300px;
+  font-size: 1.2rem;
+  font-weight: bolder;
+  min-width: 200px;
   margin-top: 10px;
   border-radius: 20px;
   text-decoration: none;
 }
-button:hover {
+main a:hover {
   color: #ffffff;
 }
 label {
@@ -48,4 +48,9 @@ main {
   border-radius: 20px;
   max-width: 80%;
   min-height: 70%;
+}
+@media screen and (min-width:640px) {
+  main a{
+    min-width: 250px;
+  }
 }
