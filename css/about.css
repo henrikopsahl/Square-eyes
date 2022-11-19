@@ -35,13 +35,12 @@ p {
   .hero-section {
     margin-top: 0;
   }
-  p{
-  margin-left: 60%;
-  margin-top: -50px;
-  font-size: 1rem;
+  p {
+    margin-left: 60%;
+    margin-top: -50px;
+    font-size: 1rem;
   }
-  h1{
+  h1 {
     justify-content: start;
-    
   }
 }
