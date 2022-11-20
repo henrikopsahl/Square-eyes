@@ -22,7 +22,7 @@ That worked well for me, and I think next time I code I will start by coding the
 
 On this page I also changed my design and centered everything because I thought it looked empty when I had the top movies to the right. 
 
-In my design I had some scrolling elements on the movies, but I didn’t manage to figure out how to do this in CSS, so unfortunately my website doesn’t have all the movies that I was planning. 
+In my design I had some scrolling elements on the movies, but I didn’t manage to figure out how to do this in time, so unfortunately my website doesn’t have all the movies that I was planning. 
 
 I made all the watch-now buttons as buttons tag, except the one I wanted to link to the product page. On that one I used an anchor tag to link it. If every buttons was supposed to link, I would have used an anchor tag on everyone. I probably should have done it anyway just for the practice.  
 
