@@ -1,4 +1,97 @@
 header {
+  max-width: 100%;
+  background-color: rgb(0, 23, 31);
+  max-height: 150px;
+  border-radius: 20px;
+  margin-top: -0.5rem;
+  
+}
+a {
+  text-decoration: none;
+  color: rgb(244, 244, 249);
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  color: rgb(244, 244, 249);
+}
+
+form {
+  padding: 2em;
+  border-radius: 1rem;
+}
+input {
+  width: 100%;
+  margin-top: 2px;
+  padding: 10px;
+  font-size: 16px;
+}
+label {
+  color: rgb(244, 244, 249);
+  display: block;
+  margin-top: 1rem;
+}
+
+button {
+  background-color: #bc4b51;
+  margin-top: 10px;
+  border-radius: 20px;
+  border: 0;
+  width: 200px;
+  height: 40px;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+button:hover {
+  color: #fff;
+}
+
+.form-error {
+  display: none;
+  color: rgb(187, 10, 33);
+  font-size: 1rem;
+  margin-top: 2px;
+}
+
+
+
+
+
+.error-message p {
+  color: rgb(187, 10, 33);
+}
+
+.custom-shape-divider-bottom-1679439026 {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1679439026 svg {
+  position: relative;
+  display: block;
+  width: calc(145% + 1.3px);
+  height: 150px;
+}
+
+.custom-shape-divider-bottom-1679439026 .shape-fill {
+  fill: #fff;
+}
+
+
+
+
+
+
+
+
+/*header {
   margin: 10px;
 }
 h1 {
@@ -21,7 +114,7 @@ input {
   min-height: 45px;
   min-width: 90%;
 }
-main a {
+button {
   background-color: #bc4b51;
   color: #000;
   font-size: 1.2rem;
@@ -31,8 +124,8 @@ main a {
   border-radius: 20px;
   text-decoration: none;
 }
-main a:hover {
-  color: #ffffff;
+button:hover {
+  color: rgb(244, 244, 249);
 }
 label {
   font-weight: bolder;
@@ -44,7 +137,7 @@ main {
   text-align: center;
   justify-content: center;
   margin: auto;
-  background-color: #ffffff;
+  background-color: rgb(244, 244, 249);
   border-radius: 20px;
   max-width: 80%;
   min-height: 70%;
@@ -54,3 +147,9 @@ main {
     min-width: 250px;
   }
 }
+
+.form-error {
+  display: none;
+  color: #bc4b51;
+}
+*/

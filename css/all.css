@@ -12,13 +12,13 @@ html:focus-within {
   box-sizing: inherit;
 }
 body {
-  background: #175676;
+  background-color: rgb(0, 23, 31);
   max-width: 100%;
   height: 100%;
 }
 header {
   max-width: 100%;
-  background-color: rgb(214, 227, 248);
+  background-color: rgba(0, 23, 31, alpha);
   min-height: 45px;
   max-height: 100px;
   border-radius: 20px;
@@ -31,18 +31,30 @@ header {
   margin-right: auto;
 }
 footer {
-  background-color: rgb(214, 227, 248);
+  background-color: #fff;
   min-height: 45px;
-  height: 100px;
-  border-radius: 20px;
-  margin-top: 0.5rem;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  min-width: 100px;
   gap: 10px;
   font-size: 1.3rem;
 }
+
+span {
+  font-family: "Josefin Sans", sans-serif;
+  margin-left: 25%;
+  font-weight: bold;
+}
+hr {
+  border: 0.5px solid #000;
+}
+
+
+
 footer a {
-  color: black;
+  color: #000;
   text-decoration: none;
   margin-right: 10px;
   margin-top: 40px;
@@ -50,3 +62,54 @@ footer a {
 footer a:hover {
   color: #bc4b51;
 }
+
+footer p {
+  color: #000;
+}
+
+
+
+
+
+
+@media screen and (min-width: 768px) {
+ 
+  
+
+  
+  footer {
+    background-color: #fff;
+    min-height: 45px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    min-width: 100px;
+    font-size: 1.3rem;
+  }
+  
+  span {
+    font-family: "Josefin Sans", sans-serif;
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  
+  footer p {
+    color: #000;
+    margin: 0;
+  }
+  
+  .footer-about {
+    margin-right: 50px;
+  }
+  
+  .footer-contact {
+    margin-right: 50px;
+  }
+  
+  .footer-creator {
+    margin-left: 50px;
+  }
+  
+}
+

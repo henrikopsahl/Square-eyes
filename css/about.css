@@ -1,36 +1,71 @@
 h1 {
-  color: #fff;
+  color: rgb(244, 244, 249);
   font-family: "Source Serif Pro", serif;
   max-width: 100%;
   display: flex;
   justify-content: center;
+}
+header {
+  max-width: 100%;
+  background-color: rgb(0, 23, 31);
+  max-height: 1500px;
+  border-radius: 20px;
+  margin-top: -0.5rem;
+}
+.container {
+  display: flex;
+  gap: 0;
+  margin-top: 0;
+  max-width: 100%;
+}
+.logo {
+  max-height: 100px;
+}
+header a {
+  padding-left: 30px;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  text-decoration: none;
+  color: rgb(244, 244, 249);
+}
+header a:hover {
+  color: #bc4b51;
+}
+nav ul {
+  display: flex;
+  list-style-type: none;
 }
 
 p {
   display: flex;
   justify-content: center;
-  color: #fff;
-  margin: 50px;
+  color: rgb(244, 244, 249);
+  margin: 100px;
   font-family: "Poppins", sans-serif;
   font-size: 0.7rem;
 }
-.hero-section {
-  display: flex;
-  justify-content: center;
-  height: 50vh;
-  background-image: url(/assets/movieroll.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  padding: 2.3rem;
-  color: #000;
-  border-radius: 20px;
-  font-size: 1.5rem;
-  font-family: "Source Serif Pro", serif;
-  max-width: 100%;
-  min-height: 100%;
-  margin-top: 60px;
+.custom-shape-divider-bottom-1679439026 {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
 }
+
+.custom-shape-divider-bottom-1679439026 svg {
+  position: relative;
+  display: block;
+  width: calc(145% + 1.3px);
+  height: 300px;
+}
+
+.custom-shape-divider-bottom-1679439026 .shape-fill {
+  fill: #fff;
+}
+
+
 @media screen and (min-width: 640px) {
   .hero-section {
     margin-top: 0;
@@ -44,3 +79,6 @@ p {
     justify-content: start;
   }
 }
+
+
+

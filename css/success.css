@@ -11,6 +11,7 @@ main {
   margin-top: 100px;
 }
 h1 {
+  color: rgb(244, 244, 249);
   text-align: center;
   margin-top: 5%;
 }
@@ -18,11 +19,11 @@ h1 {
   display: flex;
   justify-content: center;
   margin-top: 5%;
-  color: #000;
+  color: rgb(244, 244, 249);
   text-decoration: none;
   font-weight: bold;
   font-size: 1.5rem;
 }
 .start-watching:hover {
-  color: #fff;
+  color: rgb(141, 8, 1);
 }

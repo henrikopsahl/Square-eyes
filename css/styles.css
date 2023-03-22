@@ -8,7 +8,7 @@
   background-repeat: no-repeat;
   background-position: center;
   padding: 2.3rem;
-  color: white;
+  color: rgb(244, 244, 249);
   border-radius: 20px;
 }
 h1 {
@@ -33,7 +33,7 @@ h1 {
 }
 
 .button:hover {
-  color: white;
+  color: rgb(244, 244, 249);
 }
 main {
   max-width: 100%;
@@ -44,8 +44,29 @@ p {
   justify-content: center;
   font-size: 1.2rem;
   font-family: "Poppins", sans-serif;
-  color: #fff;
+  color: rgb(244, 244, 249);
   padding: 20px;
+}
+
+.custom-shape-divider-bottom-1679439026 {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1679439026 svg {
+  position: relative;
+  display: block;
+  width: calc(145% + 1.3px);
+  height: 180px;
+}
+
+.custom-shape-divider-bottom-1679439026 .shape-fill {
+  fill: #fff;
 }
 
 @media screen and (min-width: 640px) {
@@ -53,13 +74,11 @@ p {
     padding: 0;
   }
   .paragraph1 {
-    color: white;
     max-width: 500px;
     margin-right: 60%;
   }
   .paragraph2 {
     margin-left: 60%;
-    color: white;
     margin-top: -100px;
   }
 }
