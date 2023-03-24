@@ -17,28 +17,24 @@ body {
   height: 100%;
 }
 
-.content{
+.content {
   padding: 16px;
 }
 
-.sticky{
+.sticky {
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 1;
-  
 }
 
 .sticky + .content {
   padding-top: 102px;
 }
 
-
-
-
 header {
   max-width: 100%;
-  background-color: rgb(0, 23, 31); 
+  background-color: rgb(0, 23, 31);
   max-height: 1500px;
   border-radius: 20px;
   margin-top: -0.5rem;
@@ -65,8 +61,6 @@ nav ul {
   display: flex;
   list-style-type: none;
 }
-
-
 
 h1,
 h2 {
@@ -167,15 +161,12 @@ hr {
   border: 0.5px solid #000;
 }
 
-
-
 footer a {
   color: #000;
   text-decoration: none;
   margin-right: 10px;
   margin-top: 40px;
 }
-
 
 footer p {
   color: #000;
@@ -204,6 +195,42 @@ header a:hover {
 
 .custom-shape-divider-bottom-1679439026 .shape-fill {
   fill: #fff;
+}
+
+.hamburger-menu {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.hamburger-menu .links {
+  display: block;
+}
+
+.hamburger-menu a {
+  color: rgb(244, 244, 249);
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.5rem;
+  display: block;
+}
+
+.hamburger-menu a .icon {
+  display: block;
+}
+
+@media only screen and (max-width: 769px) {
+  .hamburger-menu {
+    display: block;
+  }
+  .hamburger-menu .links {
+    display: none;
+  }
+
+  .msihbtn {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 769px) {
@@ -253,17 +280,10 @@ header a:hover {
     margin-right: 20px;
     gap: 20px;
     font-size: 24px;
-    
   }
-
 }
 
-
 @media screen and (min-width: 768px) {
- 
-  
-
-  
   footer {
     background-color: #fff;
     min-height: 45px;
@@ -274,28 +294,27 @@ header a:hover {
     min-width: 100px;
     font-size: 1.3rem;
   }
-  
+
   span {
     font-family: "Josefin Sans", sans-serif;
     margin-right: 10px;
     font-weight: bold;
   }
-  
+
   footer p {
     color: #000;
     margin: 0;
   }
-  
+
   .footer-about {
     margin-right: 50px;
   }
-  
+
   .footer-contact {
     margin-right: 50px;
   }
-  
+
   .footer-creator {
     margin-left: 50px;
   }
-  
 }

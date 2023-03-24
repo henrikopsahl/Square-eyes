@@ -71,11 +71,3 @@ function validatePassword(password) {
     return false;
   }
 }
-
-
-
-
-
-
-
-
