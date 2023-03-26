@@ -88,7 +88,7 @@ img {
 .watch-now {
   position: absolute;
   top: 90%;
-  background-color: red;
+  background-color: #ea2b1f;
   border-radius: 20px;
   width: 50px;
   height: 10px;
@@ -174,7 +174,7 @@ footer p {
 }
 footer a:hover,
 header a:hover {
-  color: #bc4b51;
+  color: #ea2b1f;
 }
 
 .custom-shape-divider-bottom-1679439026 {

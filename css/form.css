@@ -33,7 +33,7 @@ label {
 }
 
 button {
-  background-color: #bc4b51;
+  background-color: #ea2b1f;
   margin-top: 10px;
   border-radius: 20px;
   border: 0;
@@ -49,14 +49,12 @@ button:hover {
 
 .form-error {
   display: none;
-  color: rgb(187, 10, 33);
+  color: #ea2b1f;
   font-size: 1rem;
   margin-top: 2px;
 }
 
-.error-message p {
-  color: rgb(187, 10, 33);
-}
+
 
 .custom-shape-divider-bottom-1679439026 {
   position: relative;
