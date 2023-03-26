@@ -88,7 +88,7 @@ img {
 .watch-now {
   position: absolute;
   top: 90%;
-  background-color: #bc4b51;
+  background-color: red;
   border-radius: 20px;
   width: 50px;
   height: 10px;
