@@ -93,7 +93,7 @@ img {
   width: 50px;
   height: 10px;
   font-size: 0.5rem;
-  color: #000;
+  color: rgb(244, 244, 249);
   font-weight: bold;
   padding: 0;
   border: none;
@@ -116,7 +116,7 @@ img {
   right: 1%;
 }
 .watch-now:hover {
-  color: rgb(244, 244, 249);
+  text-decoration: underline;
 }
 
 .btn6,
