@@ -157,6 +157,7 @@ footer p {
 
 .hamburger-menu .links {
   display: block;
+  background-color: rgb(0, 23, 31);
 }
 
 .hamburger-menu a {
