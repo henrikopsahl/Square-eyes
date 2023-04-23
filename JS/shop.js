@@ -1,6 +1,6 @@
-
 const url = "https://www.jagaranti.icu/wp-json/wc/store/products?_embed";
-const featuredUrl = "https://www.jagaranti.icu/wp-json/wc/store/products?_embed&featured=true";
+const featuredUrl =
+  "https://www.jagaranti.icu/wp-json/wc/store/products?_embed&featured=true";
 
 async function getProducts() {
   try {
@@ -22,8 +22,6 @@ function displayProducts(products) {
   let html = "";
 
   products.forEach(function (product) {
-   
-
     let imageUrl = "";
     let imageAlt = "No image available";
     if (product.images && product.images.length > 0) {
@@ -91,12 +89,12 @@ async function getFeaturedProducts() {
 }
 
 function displayFeaturedProducts(products) {
-  const featuredProductContainer = document.querySelector(".featured-product-container");
+  const featuredProductContainer = document.querySelector(
+    ".featured-product-container"
+  );
   let html = "";
 
   products.forEach(function (product) {
-  
-
     let imageUrl = "";
     let imageAlt = "No image available";
     if (product.images && product.images.length > 0) {
@@ -154,21 +152,6 @@ function displayFeaturedProducts(products) {
 }
 
 getFeaturedProducts();
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
 
 // this is for making the header stick to the top at all time
 window.onscroll = function () {
