@@ -1,3 +1,21 @@
+# Content management system
+I am still working on making the add to cart function work. unfortanely i did not have time to do it before the deadline on this assignment
+Some styling on some of the pages still needs to be done also. ecpessialy on the shop-details page.
+i tried to focus on the level 1 requirements, and think i have done them, but i will try do make the page more aestethic looking when i have more time.
+
+I have added total of 6 products and some details about them. I have fetched data from the api so i could display the products on my page, and rendered a grid of products on my html page. i have filtered a featured product, and made a list for that, and a list for all products. i have made a product-detail page.
+
+the content management system task is located on the shop/store page on my website.
+
+# noroff password
+i am not really sure what means by adding a noroff user password so please let me know if i have delivered the wrong password.
+
+
+
+
+
+
+
 # Introduction 
 
  In my design course assignment I chose to design Square eyes, so now in this assignment I have used HTML and CSS to code the website. 
