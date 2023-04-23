@@ -23,7 +23,7 @@ function displayProducts(products) {
 
   products.forEach(function (product) {
     let imageUrl = "";
-    let imageAlt = "No image available";
+    let imageAlt = "Movie cover";
     if (product.images && product.images.length > 0) {
       imageUrl = product.images[0].src;
       imageAlt = product.name;
@@ -96,7 +96,7 @@ function displayFeaturedProducts(products) {
 
   products.forEach(function (product) {
     let imageUrl = "";
-    let imageAlt = "No image available";
+    let imageAlt = "Movie cover";
     if (product.images && product.images.length > 0) {
       imageUrl = product.images[0].src;
       imageAlt = product.name;

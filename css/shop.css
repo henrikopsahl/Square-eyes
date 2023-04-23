@@ -34,7 +34,13 @@ a {
 }
 
 .add-to-cart {
+  color: #000;
+  font-weight: bold;
   background-color: #ea2b1f;
+  border-radius: 20px;
+}
+.add-to-cart:hover{
+  color: rgb(244, 244, 249);
 }
 
 header {
