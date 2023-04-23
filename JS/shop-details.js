@@ -1,5 +1,3 @@
-
-
 async function getProductDetails(productId) {
   const url = `https://www.jagaranti.icu/wp-json/wc/store/products/${productId}?_embed`;
   try {
@@ -39,16 +37,12 @@ function displayProductDetails(product) {
 
   productContainer.innerHTML = html;
 
-  // Add event listener for the "Add to Cart" button
+  // i have started to try an make the shopping cart function, but i did not have time to finish before the delivery
   const addToCartButton = document.getElementById("addToCart");
   addToCartButton.addEventListener("click", () => {
     addToCart(product);
   });
 }
-
-
-
-
 
 // this is for making the header stick to the top at all time
 window.onscroll = function () {

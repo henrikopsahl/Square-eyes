@@ -10,7 +10,6 @@ h1 {
   color: rgb(244, 244, 249);
 }
 
-
 .add-to-cart {
   display: block;
   margin: 0 auto;
@@ -24,8 +23,8 @@ h1 {
   text-decoration: none;
   cursor: pointer;
 }
-.add-to-cart:hover{
-    color: rgb(244, 244, 249);
+.add-to-cart:hover {
+  color: rgb(244, 244, 249);
 }
 
 header {
@@ -101,27 +100,26 @@ p {
   display: block;
 }
 
-
 .custom-shape-divider-bottom-1679439026 {
-    position: relative;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
-  }
-  
-  .custom-shape-divider-bottom-1679439026 svg {
-    position: relative;
-    display: block;
-    width: calc(145% + 1.3px);
-    height: 180px;
-  }
-  
-  .custom-shape-divider-bottom-1679439026 .shape-fill {
-    fill: #fff;
-  }
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1679439026 svg {
+  position: relative;
+  display: block;
+  width: calc(145% + 1.3px);
+  height: 180px;
+}
+
+.custom-shape-divider-bottom-1679439026 .shape-fill {
+  fill: #fff;
+}
 
 @media only screen and (max-width: 769px) {
   .hamburger-menu {
