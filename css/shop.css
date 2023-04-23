@@ -5,14 +5,14 @@
     height: auto;
   }
   
-.product-container{
+.product-container,.featured-product-container {
   display: grid;
   flex-direction: column;
   justify-content: center;
 }    
   
 
-  h2 {
+  h1, h2 {
     color: rgb(244, 244, 249);
     font-family: "Source Serif Pro", serif;
     max-width: 100%;
