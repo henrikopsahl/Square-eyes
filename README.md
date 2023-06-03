@@ -13,6 +13,7 @@ This project marks the beginning of my journey into Frontend development. It was
 # Installing
 
 1. Clone The repo
+https://github.com/henrikopsahl/square-eyes.git
 
 2. Install the dependencies
 
